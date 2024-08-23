@@ -22,23 +22,26 @@ This project is a WebSocket application with a Go server and a React client. The
    `go mod init websocket-app/server`
 
 3.Install dependencies:
-
+    ```bash
    `go mod tidy`
 
 4. Run the server:
+     ```bash
     `go run main.go`
 The server will start on http://localhost:8080.
 
 ### Client
 
 1. **Navigate to the `client` directory:**
-
+       ```bash
      `cd client`
 
 2. Install dependencies:
+       ```bash
      `npm install`
 
-3. Start the client application:
+4. Start the client application:
+       ```bash
      `npm start`
 The client application will be available at http://localhost:3000.
 
